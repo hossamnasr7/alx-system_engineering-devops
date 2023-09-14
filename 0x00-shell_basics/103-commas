@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -Ap1 | LC_ALL=C sort --ignore-leading-blanks
+ls -Ap1 | sort -df --ignore='[A-Za-z0-9]'
